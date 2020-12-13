@@ -1,0 +1,64 @@
+
+
+body {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+img {
+            display: block;
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 60px;
+            height: 30%;
+            width: 30%;
+            }
+
+textarea {
+  width: 60%;
+  height: 20%;
+  outline: none;
+  font-size: 1.5em;
+  font-family: Verdana, sans-serif;
+  border: 2px solid;
+  height: 7em;
+}
+
+.buttons-container {
+  margin: 20px;
+}
+
+.buttons {
+  height: 2em;
+  margin: 1em;
+  width: 7em;
+  margin-bottom: 0;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #DA0000;
+  color: white;
+  border: black solid 1px;
+  outline: none;
+  transition: background-color ease-in 100ms;
+}
+
+.buttons:active {
+  background-color: #A70000;
+}
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  width: 100%;
+  font-family: Verdana;
+  color: white;
+}
+
+.footer-link {
+  color: black;
+}
